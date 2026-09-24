@@ -2,7 +2,8 @@
 /* only <h3>  headers between <div class=gs-section-01> tags /*
   
   .gs-section-01 h3 {
-    color: blue }
+    color: blue;
+  }
   
   /* only <p>  paragraphs between <div class=gs-section-01> tags */
   
@@ -14,7 +15,7 @@
 
   .gs-section-02 h3 {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: red;
     font-style: normal;
 }
 
