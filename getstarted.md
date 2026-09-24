@@ -1,3 +1,36 @@
+<style>
+/* only <h3>  headers between <div class=gs-section-01> tags /*
+  
+  .gs-section-01 h3 {
+    color: blue }
+  
+  /* only <p>  paragraphs between <div class=gs-section-01> tags */
+  
+  .gs-section-01 p {
+    font-size: 30px;
+  }
+  
+/* only <h3>  headers between <div class=gs-section-02> tags */
+
+  .gs-section-02 h3 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-style: normal;
+}
+
+/* only <h3>  headers between <div class=gs-section-03> tags */
+.gs-section-03 h3 {
+    font-family: Georgia, serif;
+    color: #444;
+}
+/* only <p> paragraphs between <div class=gs-section-03> tags */
+
+.gs-section-03 p {
+    color: #7a3e00;
+    font-style: italic;
+}
+</style>
+
 # Build your website in 3 steps
 
 There's a very easy way to use this theme, and there's a hard way. For most people (including myself!), the easy route is recommended. If you're an advanced user and want to tinker with the hard way (using ruby gems), then [skip the easy way](https://github.com/daattali/beautiful-jekyll#the-hard-way-using-ruby-gems) if you know what you're doing.
@@ -46,42 +79,3 @@ Note that this was the easy way to *create* your website, but it does come at a 
 ## The hard way (using ruby gems)
 
 If you followed the easy method above, then you already have your site and you can skip this section! If you want to use Beautiful Jekyll as a ruby gem instead, follow the [advanced installation instructions](https://beautifuljekyll.com/getstarted/#install-steps-hard). This is harder to set up initially, but it makes it super easy to keep your site up to date with Beautiful Jekyll when more features are added in the future.
-
-<style>
-<!-- only <h3>  headers between <div class=gs-section-01> tags -->
-  
-  .gs-section-01 h3 {
-    color: blue }
-  
-  <!-- only <p>  paragraphs between <div class=gs-section-01> tags -->
-  
-  .gs-section-01 p {
-    font-size: 30px:
-  }
-  
-<!-- only <h3>  headers between <div class=gs-section-02> tags -->
-
-  .gs-section-02 h3 {
-    font-family: Arial, sans-serif;
-    color: #333;
-}
-
-<!-- only <h3>  headers between <div class=gs-section-02> tags -->
-  
-.gs-section-02 h3 {
-    color: #1f4e79;
-    font-style: normal;
-}
-
-<!-- only <h3>  headers between <div class=gs-section-03> tags -->
-.gs-section-03 h3 {
-    font-family: Georgia, serif;
-    color: #444;
-}
-<!-- only <p> paragraphs between <div class=gs-section-03> tags -->
-
-.gs-section-03 p {
-    color: #7a3e00;
-    font-style: italic;
-}
-</style>
