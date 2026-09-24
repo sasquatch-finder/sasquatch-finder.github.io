@@ -1,10 +1,10 @@
 <style>
 /* only <h3>  headers between <div class=gs-section-01> tags /*
   
-  .gs-section-01 h3 {
+ .gs-section-01 h3 {
     color: blue;
-  }
-  
+    font-style: bold;
+}
   /* only <p>  paragraphs between <div class=gs-section-01> tags */
   
   .gs-section-01 p {
@@ -45,7 +45,7 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 ![Installation steps](assets/img/install-steps.gif)
 
 
-<div class ="gs-section-01" markdown="1">
+<div class="gs-section-01" markdown="1">
   
 ### 1. Fork this project
 
